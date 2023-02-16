@@ -18,5 +18,5 @@ jobs:
       - name: Push to dokku
         uses: dokku/github-action@master
         with:
-          git_remote_url: 'ssh://dokku@5.161.126.132:22/ruby-app'
+          git_remote_url: 'ssh://dokku@poc.opsrobot.dev:22/ruby-app'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
